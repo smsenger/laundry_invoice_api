@@ -1,0 +1,13 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "postgress",
+    "database": "database_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+
+  "production": {
+    "use_env_variable": "DATABSE_URL"
+  }
+}

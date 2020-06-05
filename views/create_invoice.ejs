@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>create invoice here</h1>
+
+    <div class='card' id="card-form1" style='width: 18rem;'>
+        <div class='card-body'>
+            <form action='/contact/register' method='post'>
+                <label for='invoice_number'>Invoice Number</label>
+                <h5 class='card-title'><input class='add-invoice_number' type='integer' id='invoice_number' name='invoice_number' /></h5>
+                <label for='total'>Total</label>
+                <h6 class='card-subtitle mb-2 text-muted'><input class='add-total' type='total' id='total'
+                        name='total' /></h6>
+                <label for='phone'>Phone Number</label>
+                <h6 class='card-subtitle mb-2 text-muted'><input class='add-currency' type='currency' id='currency'
+                        name='currency' /></h6>
+                <label for='invoice_date'>Invoice Date</label>
+                <h6 class='card-subtitle mb-2 text-muted'><input class='add-invoice-date' type='invoice_date' id='invoice_date'
+                        name='invoice_date' /></h6>
+                <label for='due_date'>Due Date</label>
+                <h6 class='card-subtitle mb-2 text-muted'><input class='add-due-date' type='due_date' id='due_date'
+                        name='due_date' /></h6>
+                <button type='submit' id="formButton2">Submit Order</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
